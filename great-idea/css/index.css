@@ -101,7 +101,7 @@ header nav {
 	display: flex;
 	align-self: flex-start;
 	justify-content: space-around;
-    margin: 25px 0;
+    padding: 10px 0;
 }
 
 header nav a {
@@ -125,7 +125,6 @@ header nav a {
 
 nav {
 	overflow: hidden;
-	top: 0;
 	width: 100%;
 
 }
