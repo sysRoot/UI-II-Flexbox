@@ -65,6 +65,7 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
+
 h1 {
 	font-size: 68px;
 }
@@ -73,9 +74,17 @@ h2 {
 	font-size: 2em;
 }
 
+ul {
+	display: flex;
+	margin-left: 20px;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: space-between;
+	list-style: square;
+}
 
 .container {
-	width: 1000px;
+	width: 880px;
 	margin: 20px auto;
 	display: flex;
 }
@@ -89,7 +98,7 @@ header {
 header nav {
 	display: flex;
 	align-self: flex-start;
-	justify-content: space-between;
+	justify-content: space-around;
     margin: 25px 0;
 }
 
@@ -119,25 +128,34 @@ nav {
 
 }
 
-.beginning {
-	display: flex;
-	vertical-align: top;
-	font-size: 68px;
-	margin-top: 130px;
-	justify-content: space-around;
-	padding: 0px 75px;
+.logo {
+	width:183px;
+	height:36px;
+	align-self: center;
+	justify-self: flex-end;
 }
 
+.beginning {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	align-items: center;
+	padding: 0px;
+}
+
+.beginning h1 {
+	text-align: center;
+}
 
 section.beginning.container img {
-	padding: 20px;
-		/* margin-top: 70px; */
-	/* right: -170px; */
+	padding: 0px 0px 20px;
+
 }
 
 button {
 	background: white;
 	margin-top: 5px;
+	margin-left: 55px;
 	padding: 10px 40px;
 	font-size: 17px;
 	border: 1px solid black;
@@ -147,19 +165,43 @@ button {
 article {
 	display: flex;
 	flex-wrap: wrap;
-	width: 100%;
 	border-top: 1px solid black;
-	border-bottom: 1px solid black;
-	margin-top: 76px;
+	border-bottom: 2px solid black;
 	padding-top: 39px;
 	padding-bottom: 39px;
-	
+	align-content: space-between;
+	justify-content: space-between;
 
+}
+
+/* article section {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+} */
+
+
+.services {
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.box-styling {
+	border: 1px solid black;
+	background-color: #f4f3f4;
+	padding: 25px;
+	
+}
+
+article section section button {
+	margin-left: 0;
+	border-radius: 5px;
+	padding: 5px 20px;
 }
 
 article section.section-top {
 	display: flex;
-	flex-direction: row;	
 	width: 100%;
 	justify-content: space-between;
 	padding: 0 10px;
@@ -186,7 +228,6 @@ article section.section-bottom {
 
 article section.section-bottom {
 	display: flex;
-	flex-wrap: wrap;
 	width:100%;
 	justify-content: space-between;
 	margin-top: 37px;
@@ -199,6 +240,17 @@ article section.section-bottom section {
 	margin-right: 12px;
 }
 
+.facts {
+	padding-top: 20px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.facts section {
+	display: flex;
+	flex-wrap: wrap;	
+	justify-content: space-between;
+}
 .contact {
 	margin-top: 57px;
 	padding: 39px 10px 0;
