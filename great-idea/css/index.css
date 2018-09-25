@@ -1,3 +1,5 @@
+
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -206,6 +208,7 @@ article section.section-top {
 
 article section.section-top section {
 	margin-right: 34px;
+	width: 400px;
 }
 
 article section.section-top section:last-child {
@@ -225,16 +228,16 @@ article section.section-bottom {
 
 article section.section-bottom {
 	display: flex;
-	width:100%;
+	width: 100%;
 	justify-content: space-between;
 	margin-top: 37px;
-	padding: 0 10px;
+	padding: 0;
 
 }
 
 article section.section-bottom section {
-	width: 275px;
-	margin-right: 12px;
+	width: 265px;
+	
 }
 
 .facts {
