@@ -92,7 +92,7 @@ ul {
 
 header {
 	width: 100%;
-    margin: 0 auto;
+	margin: 0 auto;
 }
 
 header nav {
@@ -104,7 +104,7 @@ header nav {
 
 header nav a {
     text-decoration: none;
-    color: black;
+    color: gray;
 }
 
 
@@ -140,7 +140,6 @@ nav {
 	justify-content: space-between;
 	flex-wrap: wrap;
 	align-items: center;
-	padding: 0px;
 }
 
 .beginning h1 {
@@ -183,12 +182,6 @@ article section {
 	justify-content: space-between;
 }
 
-
-/* .services {
-	display: flex;
-	justify-content: space-between;
-
-} */
 
 .box-styling {
 	width: 420px;
