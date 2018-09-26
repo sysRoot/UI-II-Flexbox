@@ -281,7 +281,7 @@ footer {
 	flex-wrap: wrap;
 	font-family: 'Dancing Script', sans-serif;
 	font-size: 20px;
-	text-align: center;
+	text-align: center;			
 	
 }
 
@@ -293,6 +293,7 @@ footer {
 	width: 70%;
 	display: flex;
 }
+
 #kitty-ipsum-2 section {
 	width: 70%;
 	display: flex;
