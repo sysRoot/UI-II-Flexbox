@@ -248,6 +248,9 @@ article section.section-bottom section {
 	flex-wrap: wrap;	
 	justify-content: space-between;
 }
+.facts section ul {
+	display: flex;
+}
 .contact {
 	margin-top: 57px;
 	padding: 39px 10px 0;
@@ -345,6 +348,10 @@ footer {
 	section.beginning.container img {
 		width: 25%;
 	}
+	
+	section.beginning.container .services-header-img {
+		width:100%;
+	}
 	article section.section-top section {
 		width: 100%	
 	}	
@@ -358,11 +365,32 @@ footer {
 		justify-content: center;
 	}
 	address { 
-		width 30%
+		width: 30%;
 		display: flex;
 		flex-wrap: wrap;	
 		justify-content: center;
 		text-align: center;
+	}
+	
+	.facts {
+		height: 500px;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-content: space-between;
+	}
+
+	.facts section {
+		display: flex;
+		flex-wrap: wrap;	
+		justify-content: center;
+	}
+
+	.facts img {
+		width:70%;
+	}
+	ul {
+		width:50;
+		justify-content: center;
 	}
 	img {
 		width: 100%;
@@ -394,6 +422,10 @@ footer {
 	section.beginning.container img {
 		width: 25%;
 	}
+	section.beginning.container .services-header-img {
+		width:100%;
+	}
+
 	article section.section-top section {
 		width: 100%	
 	}	
@@ -407,11 +439,31 @@ footer {
 		justify-content: center;
 	}
 	address { 
-		width 30%
+		width: 30%;
 		display: flex;
 		flex-wrap: wrap;	
 		justify-content: center;
 		text-align: center;
+	}
+	.facts {
+		height: 500px;
+		flex-wrap: wrap;
+		justify-content:center;
+		align-content: space-between;
+	}
+
+	.facts section {
+		display: flex;
+		flex-wrap: wrap;	
+		justify-content: center;
+	}
+
+	.facts img {
+		width:70%;
+	}
+	ul {
+		width: 50%;
+		justify-content: center;
 	}
 	img {
 		width: 100%;
